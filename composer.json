@@ -1,0 +1,21 @@
+{
+    "name": "usuario/app-salon_php_mvc_js_sass",
+    "description": "Pryecto integrador",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Clasess\\" :"./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antonio Torres Juarez y Nevaiit Parra"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
